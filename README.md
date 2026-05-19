@@ -231,6 +231,7 @@ if "```json" in content:
 elif "```" in content:
     content = content.split("```")[1].split("```")[0]
 ```
+https://github.com/yusheng129/hiring-agent-workflow/issues/1#issue-4477189169
 
 ### 问题 3: 角色扮演导致输出不稳定
 
