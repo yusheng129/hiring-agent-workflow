@@ -1,0 +1,25 @@
+# 调试命令
+
+## 1. 分析候选人
+cd "d:/edge下载/cc-haha-main/cc-haha-main/hiring-agent-workflow"
+python main.py analyze --type candidate --file examples/candidate_yyf.md
+
+## 2. 分析项目
+python main.py analyze --type project --file examples/project_vtdemo.md
+
+## 3. 直接输入文本
+python main.py analyze --type candidate --text "5年Python开发经验，熟悉FastAPI和LangGraph"
+
+## 4. 输出到文件
+python main.py analyze --type candidate --file examples/candidate_yyf.md --output result.json
+
+# 配置说明
+# 使用 anthropic SDK，API Key 从 MINIMAX_API_KEY 环境变量读取
+# Base URL: https://api.minimaxi.com/anthropic
+# 模型: MiniMax-M2.7
+
+# 需要确保安装了 anthropic SDK
+# pip install anthropic
+
+# 确保设置了环境变量
+# $env:MINIMAX_API_KEY="your-api-key"

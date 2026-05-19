@@ -1,0 +1,1 @@
+3年前端开发经验，熟练使用 React 和 Vue 框架，了解 TypeScript。做过几个后台管理系统项目，使用过 Element UI 和 Ant Design 组件库。了解基本的 HTTP 协议和 RESTful API 设计。没有 AI/大模型相关的项目经验，对 LangChain、LangGraph 等框架完全不了解。最近在学习一些人工智能方面的知识，但还没有实际项目经验。薪资预期：15-25K/月。
